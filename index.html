@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div id="root">
@@ -11,10 +12,16 @@
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>  
-    <script>
-        const heading = React.createElement("h1", {}, "Hello World from React");
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(heading);
+    <script src="./App.js">
+        // by using script tag
+        // const heading = React.createElement("h1", 
+        // {id: "heading"}, 
+        // "Hello World from React"); // here {} is an object that takes attributes for h1 tag
+        // // here heading gives an object     
+
+        // const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        // root.render(heading);// it renders the element heading object into the root by creating an HTML document
     </script>   
 
 </body>
