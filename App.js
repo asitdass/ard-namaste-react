@@ -1,3 +1,5 @@
+// by using another js file
+
 const heading = React.createElement("h1", 
 {id: "heading"}, 
 "Hello World from React"); // here {} is an object that takes attributes for h1 tag
